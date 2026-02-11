@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa Francesa | Lavanderia Guarulhos</title>
+    <meta name="description" content="Especialista em edredons e trajes finos em Guarulhos desde 1995.">
+    <link rel="icon" type="image/png" href="logo-casa.png">
+
+    <meta property="og:title" content="Casa Francesa | Lavanderia ">
+    <meta property="og:image" content="logo-casa.png">
+    <meta property="og:url" content="https://casa-francesa.vercel.app/">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div vw class="enabled"><div vw-access-button class="active"></div><div vw-plugin-wrapper></div></div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>new window.VLibras.Widget('https://vlibras.gov.br/app');</script>
+
+    <a href="https://wa.me/5511989419235?text=Vim%20pelo%20site%20da%20Casa%20Francesa%20e%20gostaria%20de%20um%20or%C3%A7amento." 
+     class="whatsapp-float" 
+     target="_blank" 
+     aria-label="Falar no WhatsApp">
+    <i class="ph ph-whatsapp-logo"></i>
+  </a>
+
+    <nav class="navbar glass">
+    <div class="logo-container">
+        <img src="logo-casa.png" alt="Logo">
+        <div class="logo-text">Casa <span>Francesa</span></div>
+    </div>
+    <ul class="nav-links">
+        <li><a class="link-nav" href="#inicio">Início</a></li>
+        <li><a class="link-nav" href="#servicos">Serviços</a></li>
+        <li><a class="link-nav" href="#depoimentos">Avaliações</a></li>
+        <li><a href="https://wa.me/5511989419235?text=Vim%20pelo%20site%20da%20Casa%20Francesa%20e%20gostaria%20de%20um%20or%C3%A7amento." class="btn-nav" target="_blank">Contato</a></li>
+    </ul>
+    <div class="menu-mobile-btn" id="openMenu">☰</div>
+</nav>
+
+<div class="menu-overlay" id="menuOverlay">
+    <ul class="mobile-links">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#depoimentos">Avaliações</a></li>
+        <li><a href="https://wa.me/5511989419235?text=Vim%20pelo%20site%20da%20Casa%20Francesa%20e%20gostaria%20de%20um%20or%C3%A7amento." class="btn-nav-mobile">WhatsApp</a></li>
+    </ul>
+</div>
+
+    <header id="inicio" class="hero">
+        <div class="hero-split">
+            <div class="hero-content-left reveal-init">
+                <h1>Cuidado que atravessa <span>gerações.</span></h1>
+                <p>O tratamento que suas roupas merecem com a confiança da Casa Francesa em Guarulhos.</p>
+            </div>
+            <div class="hero-visual-right reveal-init">
+                <div class="hero-visual-wrapper" id="bubble-container">
+                    <div class="hero-logo-container">
+                        <img src="logo-casa.png" alt="Logo" class="hero-logo-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="servicos" class="services">
+        <h2 class="section-title">Nossos Serviços</h2>
+        <div class="services-grid">
+            <div class="service-card glass">
+                <span class="emoji-icon">🧺</span>
+                <h3>Edredons</h3>
+                <p>Lavagem profunda e secagem precisa para maciez absoluta.</p>
+            </div>
+            <div class="service-card glass">
+                <span class="emoji-icon">👔</span>
+                <h3>Trajes Finos</h3>
+                <p>Cuidado meticuloso com sedas e ternos.</p>
+            </div>
+            <div class="service-card glass">
+                <span class="emoji-icon">🧼</span>
+                <h3>Dia a Dia</h3>
+                <p>Praticidade para suas roupas casuais.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="depoimentos" class="testimonials">
+        <h2 class="section-title">O que dizem os clientes</h2>
+        <div class="carousel-container">
+            <div class="carousel-track" id="track">
+                <div class="testimonial-card glass">
+                    <div class="stars">★★★★★</div>
+                    <p>“Honestidade e excelência.”</p>
+                    <strong>Mara Borgatto</strong>
+                </div>
+                <div class="testimonial-card glass">
+                    <div class="stars">★★★★★</div>
+                    <p>“Excelente custo-benefício.”</p>
+                    <strong>Leonardo Paiva</strong>
+                </div>
+                <div class="testimonial-card glass">
+                    <div class="stars">★★★★★</div>
+                    <p>“Muito cuidado. Recomendo!”</p>
+                    <strong>Maysa Odam</strong>
+                </div>
+            </div>
+            <div class="carousel-controls">
+                <button id="prev" class="btn-round">←</button>
+                <button id="next" class="btn-round">→</button>
+            </div>
+        </div>
+    </section>
+
+   <footer class="footer">
+        <div class="footer-card glass">
+            <div class="footer-flex">
+                <div class="footer-text">
+                    <h3>Onde estamos</h3>
+                    <p>📍 Rua Maria Lucinda, 192 — Centro, Guarulhos</p>
+                    <p>🕒 Seg a Sex: 8h30 às 18h | Sáb: 8h30 às 12h</p>
+                    <p class="warning">Atendimento presencial.</p>
+                </div>
+                <div class="map-box">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.351662998638!2d-46.5298822!3d-23.4658141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce52e935272a7d%3A0xc3f345c26b484501!2sR.%20Maria%20Lucinda%2C%20192%20-%20Centro%2C%20Guarulhos%20-%20SP%2C%2007011-040!5e0!3m2!1spt-BR!2sbr!4v1700000000000" loading="lazy"></iframe>
+                </div>
+            </div>
+            <p class="copyright">© 2026 — Casa Francesa · Tradição desde 1995</p>
+              <p>Desenvolvido por <a href="https://anajuliatorianipessoa.vercel.app/" style="color: #2c5282">AJ</a></p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
